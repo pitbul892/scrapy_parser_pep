@@ -7,7 +7,6 @@ from .constants import BASE_DIR, DATETIME_FORMAT, RESULTS
 
 class PepParsePipeline:
 
-
     def open_spider(self, spider):
         self.status_count = {}
         self.file_path = os.path.join(BASE_DIR, RESULTS)
